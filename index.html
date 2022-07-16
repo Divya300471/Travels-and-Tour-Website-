@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Complete Responsive Tour and Travel Agency Website Design Tutorial</title>
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+	<body>
+		
+		<!-- header section starts  -->
+		<header>
+			<div id="menu-bar" class="fas fa-bars"></div>
+            <a href="#" class="logo"><span>BACK</span>PACK</a>
+			<nav class="navbar">
+				<a href="#home">home</a>
+				<a href="#book">book</a>
+				<a href="#packages">packages</a>
+				<a href="#services">services</a>
+				<a href="#gallery">gallery</a>
+				<a href="#review">review</a>
+				<a href="#contact">contact</a>
+			</nav>
+			<div class="icons">
+				<i class="fas fa-search" id="search-btn"></i>
+				<i class="fas fa-user" id="login-btn"></i>
+			</div>
+			<form action="" class="search-bar-container">
+				<input type="search" id="search-bar" placeholder="Search Here...">
+				<label for="search-bar" class="fas fa-search"></label>
+			</form>
+
+		</header>
+		<!-- header section ends -->
+
+		<!-- login form container starts here-->
+		<div class="login-form-container">
+			<i class="fas fa-times" id="form-close"></i>
+			<form action="">
+				<h3>LOGIN</h3>
+					<input type="email" class="box" placeholder="Enter Your Email">
+					<input type="password" class="box" placeholder="Enter Your Password">
+					<input type="submit" value="Login Now" class="btn">
+					<input type="checkbox" id="remember">
+					<label for="remember">Remember Me</label>
+					<p>Forget Password!!<a href="#">Click Here</a></p>
+					<p>Dont't Have Account<a href="#">Register Now</a></p>
+			</form>
+		</div>
+
+		<!-- home section starts  -->
+		<section class="home" id="home">
+			<div class="content">
+				<h3>ADVENTURE IS WORTHWHILE</h3>
+				<p>Discover New Places With Us, Adventure Awaits</p>
+				<a href="#" class="btn">Discover More</a>
+			</div>
+			<div class="controls">
+				<span class="vid-btn active" data-src="images/video1.mp4"></span>
+				<span class="vid-btn" data-src="images/video2.mp4"></span>
+				<span class="vid-btn" data-src="images/video3.mp4"></span>
+				<span class="vid-btn" data-src="images/video4.mp4"></span>
+				<span class="vid-btn" data-src="images/video5.mp4"></span>
+			</div>
+			<div class="video-container">
+				<video src="images/video1.mp4" id="video-slider" loop autoplay muted></video>
+			</div>
+		</section>
+		<!-- home section ends -->
+
+		<!-- book section starts  -->
+		<section class="book" id="book">
+			<h1 class="heading">
+				<span>B</span>
+				<span>O</span>
+				<span>O</span>
+				<span>K</span>
+				<span class="space"></span>
+				<span>N</span>
+				<span>O</span>
+				<span>W</span>
+			</h1>
+			<div class="row">
+				<div class="image">
+					<img src="images/image1.svg" alt="">
+				</div>
+				<form action="">
+					<div class="inputBox">
+						<h3>WHERE TO</h3>
+						<input type="text" placeholder="Place Name">
+					</div>
+					<div class="inputBox">
+						<h3>HOW MANY</h3>
+						<input type="number" placeholder="Number Of Guests">
+						</div>
+					<div class="inputBox">
+						<h3>ARRIVALS</h3>
+						<input type="date">
+					</div>
+					<div class="inputBox">
+						<h3>LEAVING</h3>
+						<input type="date">
+					</div>
+					<input type="submit" class="btn" value="BOOK NOW">
+				</form>
+			</div>
+		</section>
+		<!-- book section ends -->
+		
+		<!-- packages section starts  -->
+		<section class="packages" id="packages">
+			<h1 class="heading">
+				<span>P</span>
+				<span>A</span>
+				<span>C</span>
+				<span>K</span>
+				<span>A</span>
+				<span>G</span>
+				<span>E</span>
+				<span>S</span>
+			</h1>
+			<div class="box-container">
+				<div class="box">
+					<img src="images/image2.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>INDIA</h3>
+						<p>
+							India is a place where colour is doubly bright.Pink that scald your 
+							eyes,blues you could drown in.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image3.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>TOKYO</h3>
+						<p>
+							More than any other city,Tokyo demonstrates that 'city' is a verb and not a 
+							noun.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image4.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>BALI</h3>
+						<p>
+							Bali is more than a place.It's a mood,it's magical.It's tropical state
+							of mind.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div><div class="box">
+					<img src="images/image5.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>PARIS</h3>
+						<p>
+							A walk about paris will provide lessons in history,beauty and in the point
+							of life.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image6.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>HONK KONG</h3>
+						<p>
+							The drama,the charm and the beauty of Hong kong is all here just as is its
+							breathless energy.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image7.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>ROME</h3>
+						<p>
+							Rome is the city echoes,the city of illusions and the city of yearning,big
+							museum.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image8.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>MALDIVES</h3>
+						<p>
+							Memories of Maldives will linger on,long after our footprints in the sand 
+							are gone.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image9.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>DUBAI</h3>
+						<p>
+							Dubai is...after all a lonely,transitory place.It's hard to maintain 
+							relationships when people are always coming and going.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image10.jpg" alt="">
+					<div class="content">
+						<h3><i class="fas fa-map-marker-alt"></i>SINGAPORE</h3>
+						<p>
+							Singapore small island city with colorful buildings,futuristic bridges and a
+							cloud forest.
+						</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="price">Rs 30,450<span>Rs40,450</span></div>
+							<a href="#" class="btn">BOOK NOW</a>
+					</div>
+				</div>
+			</div>
+		</section>
+       <!-- packages section ends -->
+
+		<!-- services section starts  -->
+		<section class="services" id="services">
+			<h1 class="heading">
+				<span>S</span>
+				<span>E</span>
+				<span>R</span>
+				<span>V</span>
+				<span>I</span>
+				<span>C</span>
+				<span>E</span>
+				<span>S</span>
+			<h1>
+			<div class="box-container">
+				<div class="box">
+					<i class="fas fa-hotel"></i>
+					<h3>AFFORDABLE HOTELS</h3>
+					<p>Resorts with lower budget and with maximum amenities.Cleaned and Huge Rooms
+						with swimming pool,bar,playarea for kids,lot is waiting for you.
+					</p>
+				</div>
+				<div class="box">
+					<i class="fas fa-utensils"></i>
+					<h3>FOOD AND DRINKS</h3>
+					<p>
+						It would changed according to the locations.Food and Drinks provided by us
+						would be the speciality of that location.High Preference is given to healthy
+						food.
+					</p>
+				</div>
+				<div class="box">
+					<i class="fas fa-bullhorn"></i>
+					<h3>SAFETY GUIDE</h3>
+					<p>
+						Considering our travellers as our own family we would be taking all the 
+						precautions for their safety.
+					</p>
+				</div>
+				<div class="box">
+					<i class="fas fa-globe-asia"></i>
+					<h3>AROUND THE WORLD</h3>
+					<p>
+						We are trying to give best facility packages with lower price to different 
+						countries in the world for our clients.
+					</p>
+				</div>
+				<div class="box">
+					<i class="fas fa-plane"></i>
+					<h3>FASTEST TRAVEL</h3>
+					<p>
+						Air Travel is the best means for transportation that is of long distances.
+					</p>
+				</div>
+				<div class="box">
+					<i class="fas fa-hiking"></i>
+					<h3>ADVENTURES</h3>
+					<p>
+						It is an exciting experience or undertaking that is typically bold,
+						sometimes risky.They may be some activities with some potential for physical
+						danger such as travelling,exploring,skydiving,mountain,climbing,scuba diving,
+						river rafting or participating in extreme sports.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- services section ends -->
+
+		<!-- gallery section starts  -->
+		<section class="gallery" id="gallery">
+			<h1 class="heading">
+				<span>G</span>
+				<span>A</span>
+				<span>L</span>
+				<span>L</span>
+				<span>E</span>
+				<span>R</span>
+				<span>Y</span>
+			</h1>
+			<div class="box-container">
+				<div class="box">
+					<img src="images/image11.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>A journey of thousand miles begins with a single step.</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image12.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>Stop worrying about the potholes in the road and enjoy the journey</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image13.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>One'destination is never a place,but a new way of seeing things.</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image14.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>More we travelled,we realize that fear makes strangers of people
+						   who should be friends.</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image15.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>With age,comes wisdom.With travel comes understanding.</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image16.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>The impulse to travel is one of the hopeful symptoms of life.</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image17.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>The world is a book and those who do not travel read only one page.</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image18.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>The real voyage of discovery consists not in seeking new landscapes,
+                           	but in having new eyes.</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+				<div class="box">
+					<img src="images/image19.jpg" alt="">
+					<div class="content">
+						<h3>FACTS ABOUT TRAVEL</h3>
+						<p>Travelling-it leaves you spechless,then turns you into storyteller.</p>
+						<a href="#" class="btn">SEE MORE</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- gallery section ends -->
+
+		<!-- review section starts  -->
+		<section class="review" id="review">
+			<h1 class="heading">
+				<span>R</span>
+				<span>E</span>
+				<span>V</span>
+				<span>I</span>
+				<span>E</span>
+				<span>W</span>
+			</h1>
+			<div class="swiper-container review-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="box">
+							<img src="images/image20.png" alt="">
+							<h3>Rutuja Pandey</h3>
+							<p>
+								Any tour to become successful,all rests with the tour manager,and 
+								our tour manager on our Maldives trip,Amruta,a very talented and 
+								dashing personality,all praise for her.
+							</p>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="box">
+							<img src="images/image21.png" alt="">
+							<h3>Kartik Shah</h3>
+							<p>
+								I have booked the trip and i found the staff is supportive and let
+								me understand all things for foreign travel.
+							</p>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="box">
+							<img src="images/image22.png" alt="">
+							<h3>Kritika Agrawal</h3>
+							<p>
+								Standardized service offerings,great for group tours when it's 
+								diffcult for travellers who find it difficult to plan long tours
+								on their own.
+							</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="box">
+						<img src="images/image23.png" alt="">
+						<h3>Sahil Jain</h3>
+							<p>
+								I had great experiences with backpack.I wish to go again with them.
+								They are giving you full valuable returns of the money you are
+								paying actually it's more then that.I am eager to fly with them
+								soon.
+							</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- review section ends -->
+
+		<!-- contact section starts  -->
+		<section class="contact" id="contact">
+			<h1 class="heading">
+				<span>C</span>
+				<span>O</span>
+				<span>N</span>
+				<span>T</span>
+				<span>A</span>
+				<span>C</span>
+				<span>T</span>
+			</h1>
+			<div class="row">
+				<div class="image">
+					<img src="images/image24.svg" alt="">
+				</div>
+				<form action="">
+					<div class="inputBox">
+						<input type="text" placeholder="NAME">
+						<input type="email" placeholder="EMAIL">
+					</div>
+					<div class="inputBox">
+						<input type="number" placeholder="NUMBER">
+						<input type="text" placeholder="SUBJECT">
+					</div>
+					<textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+					<input type="submit" class="btn" value="SEND MESSAGE">
+				</form>
+			</div>
+		</section>
+		<!-- contact section ends -->
+
+		<!-- brand section starts here -->
+		<section class="brand-container">
+			<div class="swiper-container brand-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="images/image25.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="images/image26.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="images/image27.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="images/image28.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="images/image29.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="images/image30.jpg" alt=""></div>
+				</div>
+			</div>
+		</section>
+		<!--brand section ends here-->
+		
+		<!-- footer section  -->
+		<section class="footer">
+			<div class="box-container">
+				<div class="box">
+					<h3>About Us</h3>
+					<p>
+						The trailbazing journey of BACKPACK started,with 20 years ago on 11th February 
+						2002 at Mahim Mumbai.With sheer determination and preservance,BACKPACK today is
+						the largest family group tour operator providing world class services to a 
+						million happy families.Being ISO 9001:2015 & BS OHSAS 18001:2007 certified travel
+						company.BACKPACK offers the most secure hoilday experiences to you and your
+						loved ones.With a commitment to deliver world class holidays with guranteed 
+						happy journeys,we look forward to serving the people of pune the best of the
+						experiences throughout the world.Our experts have personally curated the most 
+						comfortable range of tours with more than 60 options for Europe,more than 80 options 
+						for South East Asia,115 in India.
+					</p>
+				</div>
+				<div class="box">
+					<h3>Branch Location</h3>
+						<a href="#">INDIA</a>
+						<a href="#">USA</a>
+						<a href="#">JAPAN</a>
+						<a href="#">FRANCE</a>
+				</div>
+				<div class="box">
+					<h3>Quick Links</h3>
+						<a href="#">Home</a>
+						<a href="#">Book</a>
+						<a href="#">Packages</a>
+						<a href="#">Services</a>
+						<a href="#">Gallery</a>
+						<a href="#">Review</a>
+						<a href="#">Contact</a>
+				</div>
+				<div class="box">
+					<h3>Follow Us</h3>
+						<a href="#">Facebook</a>
+						<a href="#">Instagram</a>
+						<a href="#">Twitter</a>
+				</div>
+			</div>
+			<h1 class="credit">Created By <span> Ms Divya Bhosale </span> | All Rights Reserved!! </h1>
+		</section>
+		<!--footer section ends here-->
+		<script src="https://unpkg.com/swiper/swiper-bundle-min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
